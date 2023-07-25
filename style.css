@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 20px;
+}
+
+#currencies {
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #23a0ff8a;
+}
+
+.currencyInfo {
+    display: none;
+    padding: 10px 20px;
+    border: 1px solid #23a0ff8a;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #23a0ff8a;
+}
+
+.title {
+    font-weight: bold;
+}
